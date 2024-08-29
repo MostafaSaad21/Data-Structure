@@ -4,7 +4,7 @@
 
 typedef struct Stacknode {
     StackEntry entry;
-    struct Stacknode *next;  // Fix: Capitalize 'Stacknode' and correct struct reference
+    struct Stacknode *next; 
 } StackNode;
 
 typedef struct stack {
